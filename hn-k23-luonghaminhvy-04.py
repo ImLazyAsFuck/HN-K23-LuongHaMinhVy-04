@@ -139,7 +139,14 @@ def statistic():
     if not bills:
         print("Hoá đơn trống")
         return
+    print("Tính năng đang trong quá trình phát triển")
 
+
+def draw_chart():
+    if not bills:
+        print("Hoá đơn trống")
+        return
+    print("Tính năng đang trong quá trình phát triển")
     
 
 while True:
@@ -167,8 +174,10 @@ while True:
         search_bill()
     elif choice == '6':
         sort_bills_by_owner_name()
-    elif choice == '7' or choice == '8':
-        print("Tính năng đang trong quá trình phát triển")
+    elif choice == '7':
+        statistic()
+    elif  choice == '8':
+        draw_chart()
     elif choice == '9':
         save_build_to_file()
     elif choice == '10':
