@@ -1,5 +1,6 @@
 import json
 import matplotlib.pyplot as plt
+import sys
 
 FILE_NAME = "data.json"
 bills = []
@@ -171,6 +172,7 @@ while True:
     elif choice == '9':
         save_build_to_file()
     elif choice == '10':
-        pass
+        print("Hẹn gặp lại.")
+        sys.exit()
     else:
         print("Không hợp lệ.")
