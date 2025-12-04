@@ -62,10 +62,10 @@ def update_bill():
     owner_name = input("Mời nhập tên chủ hộ: ")
 
     if len(bills) > 0:
-            for i in bills:
-                if i["owner_name"] == owner_name:
-                    print("Tên chủ hộ đã tồn tại.")
-                    return
+        for i in bills:
+            if i["owner_name"] == owner_name:
+                print("Tên chủ hộ đã tồn tại.")
+                return
 
     old_electricity_number = input("Nhập số điện cũ: ")
     new_electricity_number = input("Nhập số điện mới: ")
@@ -134,7 +134,12 @@ def sort_bills_by_owner_name():
     elif choice == '2':
         bills.sort(key=lambda x: x.get('owner_name', 0), reverse=True)
 
+def statistic():
+    if not bills:
+        print("Hoá đơn trống")
+        return
 
+    
 
 while True:
     print("---------- Quản lý hoá đơn tiền điện ---------")

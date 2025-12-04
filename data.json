@@ -1,22 +1,22 @@
 {
-    "bills": [
-        {
-            "id": "C001",
-            "owner_name": "hello",
-            "old_electricity_number": "1000",
-            "new_electricity_number": "1000",
-            "consumption": "1000",
-            "into_money": "1000",
-            "applicable_level": "1000"
-        },
-        {
-            "id": "C002",
-            "owner_name": "nono",
-            "old_electricity_number": "10000",
-            "new_electricity_number": "10000",
-            "consumption": "1000",
-            "into_money": "100",
-            "applicable_level": "100"
-        }
-    ]
+  "bills": [
+    {
+      "id": "C001",
+      "owner_name": "hello",
+      "old_electricity_number": "1000",
+      "new_electricity_number": "1000",
+      "consumption": "1000",
+      "into_money": "1000",
+      "applicable_level": "2"
+    },
+    {
+      "id": "C002",
+      "owner_name": "nono",
+      "old_electricity_number": "10000",
+      "new_electricity_number": "10000",
+      "consumption": "1000",
+      "into_money": "100",
+      "applicable_level": "1"
+    }
+  ]
 }
